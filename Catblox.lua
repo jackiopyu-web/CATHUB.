@@ -290,7 +290,7 @@ else
 
   utilBloxFruitModulePreloadDataLua = f21("Preload/Data.lua") or {}
 
-  if not f21("Util/BloxFruitModule/Preload/Visuals.lua") then
+  if not f21("Preload/Visuals.lua") then
   end
 
   devNiulaiLua = f21("Dev/niulai.lua")
@@ -17679,7 +17679,7 @@ Position: %.2f Studs Away]], count8, huge13) or "No fruits detected nearby."
       v933(v33, ...)
     end
 
-    print(string.format("[Quantum Onyx] %s initialized in %.4fs", p261, tick() - v932))
+    print(string.format("[CATHUB] %s initialized in %.4fs", p261, tick() - v932))
   end
 
   f126("CoreSetup")
@@ -17692,11 +17692,11 @@ Position: %.2f Studs Away]], count8, huge13) or "No fruits detected nearby."
     task.wait(1.5)
 
     v33:SendNotify(
-      "Quantum Fully Loaded", "All Functions, Modules, Dependencies, Successfully loaded.", 8
+      "CATHUB Loaded", "All Functions, Modules, Dependencies, Successfully loaded.", 8
     )
 
     task.wait(1)
-    v33:SendNotify("Quantum (INFO)", "Quantum Onyx Script is 100% Free and Keyless", 8)
+    v33:SendNotify("CATHUB (INFO)", "CATHUB Script is 100% Free and Keyless", 8)
 
     pcall(function()
       loadstring(game:HttpGet("https://raw.githubusercontent.com/flazhy/QuantumOnyx/refs/heads/main/Util/BloxFruitModule/Preload/Weebo.lua"))()
