@@ -8030,7 +8030,7 @@ My Boat (%s)%s
     function v544.OnAutoLoadScript()
       if v19.AutoLoadScriptonLoad then
         local v545 = string.format(
-          " task.wait(1) getgenv().Team = \"%s\" loadstring(game:HttpGet(\"https://raw.githubusercontent.com/flazhy/QuantumOnyx/refs/heads/main/QuantumOnyx.lua\"))() ",
+          " task.wait(1) getgenv().Team = \"%s\" loadstring(game:HttpGet(\"https://raw.githubusercontent.com/jackiopyu-web/CATHUB./refs/heads/main/Catblox.lua\"))() ",
           v19.TeamSelectLoad or "Pirates"
         )
 
