@@ -293,7 +293,7 @@ else
   if not f21("Util/BloxFruitModule/Preload/Visuals.lua") then
   end
 
-  devNiulaiLua = f21("dev/niulai.lua")
+  devNiulaiLua = f21("Dev/niulai.lua")
   materialEnemies = utilBloxFruitModulePreloadDataLua.MaterialEnemies
   quests = utilBloxFruitModulePreloadDataLua.QUESTS
   bossList = utilBloxFruitModulePreloadDataLua.BossList
