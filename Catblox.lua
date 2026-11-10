@@ -288,7 +288,7 @@ else
     return nil
   end
 
-  utilBloxFruitModulePreloadDataLua = f21("Util/BloxFruitModule/Preload/Data.lua") or {}
+  utilBloxFruitModulePreloadDataLua = f21("Preload/Data.lua") or {}
 
   if not f21("Util/BloxFruitModule/Preload/Visuals.lua") then
   end
