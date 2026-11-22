@@ -55,7 +55,7 @@ local new = TweenInfo.new
 v3._CurrentGui = nil
 
 v2.Save = {
-  FolderName = "Quantum Onyx Hub",
+  FolderName = "kesha doom Hub",
   Settings = {},
   _Keys = {},
   RegisteredControls = {},
@@ -1781,7 +1781,7 @@ function v3.CreateWindow(p95, p96)
     v421, v422, v424, v425, v426, v463, v638
 
   if type(p96) == "table" then
-    p96.Title = "Quantum Onyx Project NEXT"
+    p96.Title = "Keshav doom hub"
   end
 
   if p96.SaveFile and type(p96.SaveFile) == "string" and p96.SaveFile ~= "" then
