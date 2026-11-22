@@ -1,10 +1,10 @@
 -- Quantum Onyx - Keyless Launcher
 -- The Luarmor loader's own authentication, if any, is not bypassed.
 
-local Directory = "https://raw.githubusercontent.com/flazhy/QuantumOnyx/refs/heads/main/Games"
+local Directory = "https://github.com/jackiopyu-web/CATHUB."
 local Scripts = {
     Free = {
-        [994732206] = Directory .. "/BloxFruits.lua",
+        [994732206] = Directory .. "/Catblox.lua",
         [9186719164] = Directory .. "/SailorPiece.lua",
         [8191429227] = Directory .. "/CutTrees.lua",
     },
