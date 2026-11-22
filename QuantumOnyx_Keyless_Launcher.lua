@@ -1,7 +1,7 @@
 -- Quantum Onyx - Keyless Launcher
 -- The Luarmor loader's own authentication, if any, is not bypassed.
 
-local Directory = "https://github.com/jackiopyu-web/CATHUB."
+local Directory = "https://raw.githubusercontent.com/jackiopyu-web/CATHUB./refs/heads/main"
 local Scripts = {
     Free = {
         [994732206] = Directory .. "/Catblox.lua",
