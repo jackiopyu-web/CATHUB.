@@ -4961,7 +4961,7 @@ Restock: %s
           color = 8202738,
           fields = v373,
           thumbnail = {
-            url = "https://cdn.discordapp.com/attachments/1262751352791236620/1505931000948068513/Screenshot_2026-04-18_235959.png?ex=6a0c6b09&is=6a0b1989&hm=f43a97cbb0b52c83e79ef0247dac0e986d46d7455506a50e106993d36c1dea4b&",
+            url = "https://cdn.discordapp.com/attachments/1571124527721615492/1574450624186294302/file_000000006518820ba54bdba07076ce94.png?ex=6b05b0e8&is=6b045f68&hm=5c6bf2781b4f7c85c3affd8146eaa04fb425eeef3c5e3858630599f42d88a99a&ef0247dac0e986d46d7455506a50e106993d36c1dea4b&",
           },
           timestamp = DateTime.now():ToIsoDate(),
         },
@@ -5168,7 +5168,7 @@ Restock: %s
       PostWebhook(dataLogWebhookUrl, {
         embeds = {
           {
-            title = p115 or "Quantum Onyx - Blox Fruit Data Log",
+            title = p115 or "keshav doom hub - Blox Fruit Data Log",
             type = "rich",
             color = 3066993,
             fields = v390,
@@ -5176,7 +5176,7 @@ Restock: %s
               url = "https://www.roblox.com/headshot-thumbnail/image?userId="
                 .. localPlayer.UserId .. "&width=420&height=420&format=png",
             },
-            footer = { text = "Quantum Onyx | " .. x2 },
+            footer = { text = "Keshav Doom Hub| " .. x2 },
             timestamp = dateTime:ToIsoDate(),
           },
         },
@@ -5778,12 +5778,12 @@ Fruit: <b><font color='rgb(255,170,0)'>%s</font></b>
   }
 
   color = Color3.fromRGB(255, 105, 180)
-  quantumBerryAnchors = v4:FindFirstChild("Quantum_Berry_Anchors")
+  KeshavBerryAnchors = v4:FindFirstChild("Keshav_Berry_Anchors")
 
   if not quantumBerryAnchors then
-    quantumBerryAnchors = Instance.new("Folder")
-    quantumBerryAnchors.Name = "Quantum_Berry_Anchors"
-    quantumBerryAnchors.Parent = v4
+    keshavBerryAnchors = Instance.new("Folder")
+    keshavBerryAnchors.Name = "Keshav_Berry_Anchors"
+    keshavBerryAnchors.Parent = v4
   end
 
   v43 = {}
