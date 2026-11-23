@@ -17691,11 +17691,11 @@ Position: %.2f Studs Away]], count8, huge13) or "No fruits detected nearby."
     task.wait(1.5)
 
     v33:SendNotify(
-      "CATHUB Loaded", "All Functions, Modules, Dependencies, Successfully loaded.", 8
+      "Keshav doom hub Loaded", "All Functions, Modules, Dependencies, Successfully loaded.", 8
     )
 
     task.wait(1)
-    v33:SendNotify("CATHUB (INFO)", "CATHUB Script is 100% Free and Keyless", 8)
+    v33:SendNotify("keshav doom hub (INFO)", "keshav doom hub Script is 100% Free and Key", 8)
 
     pcall(function()
       loadstring(game:HttpGet("https://raw.githubusercontent.com/flazhy/QuantumOnyx/refs/heads/main/Util/BloxFruitModule/Preload/Weebo.lua"))()
