@@ -20,7 +20,7 @@ local Config = {
     
     -- [4] Social Media Settings (Set to true to show, false to hide)
     ShowDiscord     = true,
-    DiscordURL      = "https://discord.gg/kT55J724BK",
+    DiscordURL      = "https://discord.gg/MVf9V9PpnV",
     
     ShowInstagram   = false,
     InstagramURL    = "https://www.instagram.com/oyb0i/",
