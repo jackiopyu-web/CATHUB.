@@ -16,7 +16,7 @@ local Config = {
     Secret          = "1845bbc1cd69f6f985e3ad67e1c976d61445ad2d8a9f8532715a43723d1e5b78", -- This makes the script ONLY run from the key script. Even if they copy the original obfuscated script to bypass the key, they won't be able to!
     
     -- [3] Scripts & Links
-    MainScriptURL   = "Link", -- The raw URL of your main script
+    MainScriptURL   = "https://flowauth.net/v1/loaders/3cad3ee3f0925a0ecd3187111fd04f1b.lua", -- The raw URL of your main script
     
     -- [4] Social Media Settings (Set to true to show, false to hide)
     ShowDiscord     = true,
